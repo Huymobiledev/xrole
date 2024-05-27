@@ -10,7 +10,6 @@ import { Language } from "@model/appconfig.model";
 import Image from "next/image";
 import { listLang } from "@model/default_content.model";
 import FooterApp from "@components/footer_app";
-import { Head } from "next/document";
 import ViewMainTancePage from "./components/maintance_view";
 
 interface ILayoutDashboardProps extends PropsWithChildren {}

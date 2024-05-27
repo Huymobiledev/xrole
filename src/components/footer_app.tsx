@@ -50,7 +50,7 @@ const FooterApp: React.FC = () => {
         />
         <div className="mt-[20px] flex flex-row gap-[16px]">
           {listConnect.map((src, index) => (
-            <button>
+            <button key={index}>
               <img
                 src={src}
                 alt={`Event ${index + 1}`}
