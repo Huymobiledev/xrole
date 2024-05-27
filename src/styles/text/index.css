@@ -1,0 +1,47 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Serif:wght@200;400;600;800&family=Montserrat:wght@300;400;600;700&display=swap');
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+/* 
+@font-face {
+  font-family: "RobotoSerif";
+  src: url("../../../public/RobotoSerif-ExtraBold.ttf")
+    format("TrueType");
+}
+@font-face {
+  font-family: "RobotoSerif";
+  src: url("../../../public/RobotoSerif-Medium.ttf")
+    format("TrueType");
+}
+@font-face {
+  font-family: "RobotoSerif";
+  src: url("../../../public/RobotoSerif-SemiBold.ttf")
+    format("TrueType");
+}
+@font-face {
+  font-family: "RobotoSerif";
+  src: url("../../../public/RobotoSerif-Thin.ttf")
+    format("TrueType");
+}
+@font-face {
+  font-family: "Montserrat";
+  src: url("../../../public/Montserrat-Bold.ttf")
+    format("bold");
+}
+@font-face {
+  font-family: "Montserrat";
+  src: url("../../../public/Montserrat-Light.ttf")
+    format("light");
+}
+@font-face {
+  font-family: "Montserrat";
+  src: url("../../../public/Montserrat-Medium.ttf")
+    format("meidum");
+}
+@font-face {
+  font-family: "Montserrat";
+  src: url("../../../public/Montserrat-SemiBold.ttf")
+    format("semibold");
+} */
+

@@ -1,0 +1,346 @@
+/* global.css */
+
+/* Ví dụ điều chỉnh kích thước của một phần tử trên các loại màn hình khác nhau */
+/* text-white text-[40px] font-[700] whitespace-pre-line font-Roboto italic */
+/* Cho màn hình lớn hơn 1200px */
+@media (min-width: 1200px) {
+  /* footer */
+  .footer{
+    width: 100%;
+    padding-top: 100px;
+    padding-bottom: 100px;
+    padding-left: 50px;
+    padding-right: 50px;
+    background-color: #FAFAFA;
+    display: flex;
+    flex-direction: row;
+  }
+  /* banner home */
+  .banner-titles-home {
+    color: white;
+    font-size: 40px;
+    font-weight: 700;
+    white-space: pre-line;
+    font-style: italic;
+  }
+  .banner-image-home {
+    position: absolute;
+    inset: 0;
+    display: flex;
+    align-items: center;
+    padding-left: 63px;
+  }
+  .banner-button-home {
+    padding-top: 16px;
+    padding-bottom: 16px;
+    padding-left: 50px;
+    padding-right: 50px;
+    background-color: #cc5404;
+    border-radius: 31px;
+    width: fit-content;
+    display: flex;
+  }
+  /* our solution home */
+  .our-solution-view {
+    width: 100%;
+    padding-top: 100px;
+    padding-bottom: 100px;
+    padding-left: 50px;
+    padding-right: 50px;
+  }
+  .our-solution-prod {
+    padding-top: 50px;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 50px;
+    justify-content: center;
+    align-items: center;
+  }
+  /* event company */
+  .event-company-prod {
+    padding-top: 50px;
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 16px;
+    padding: 16px;
+    justify-content: center;
+    align-items: center;
+  }
+  .event-company-image {
+    display: none;
+  }
+  /* new meida */
+  .new-media-text {
+    color: #343434;
+    font-size: 16px;
+    font-weight: 700;
+    font-family: Roboto, sans-serif;
+    white-space: pre-line;
+    display: block;
+    overflow: hidden;
+    display: -webkit-box;
+    -webkit-box-orient: vertical;
+    /* For WebKit-based browsers (Chrome, Safari) */
+    -webkit-line-clamp: 2; /* Number of lines to show */
+    /* For Firefox */
+    -moz-line-clamp: 2; /* Number of lines to show */
+    /* For other browsers */
+  }
+}
+
+/* Cho màn hình từ 992px đến 1199px */
+@media (min-width: 992px) and (max-width: 1199px) {
+   /* footer */
+   .footer{
+    width: 100%;
+    padding-top: 80px;
+    padding-bottom: 80px;
+    padding-left: 40px;
+    padding-right: 40px;
+    background-color: #FAFAFA;
+    display: flex;
+    flex-direction: row;
+  }
+  /* banner home */
+  .banner-image-home {
+    position: absolute;
+    inset: 0;
+    display: flex;
+    align-items: center;
+    padding-left: 63px;
+  }
+  .banner-titles-home {
+    color: white;
+    font-size: 32px;
+    font-weight: 700;
+    white-space: pre-line;
+    font-style: italic;
+  }
+  .banner-button-home {
+    padding-top: 16px;
+    padding-bottom: 16px;
+    padding-left: 50px;
+    padding-right: 50px;
+    background-color: #cc5404;
+    border-radius: 31px;
+    width: fit-content;
+    display: flex;
+  }
+  /* our solution */
+  .our-solution-view {
+    width: 100%;
+    padding-top: 80px;
+    padding-bottom: 80px;
+    padding-left: 40px;
+    padding-right: 40px;
+  }
+  .our-solution-prod {
+    padding-top: 50px;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 40px;
+    justify-content: center;
+    align-items: center;
+  }
+  /* event company */
+  .event-company-prod {
+    padding-top: 50px;
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 16px;
+    padding: 16px;
+    justify-content: center;
+    align-items: center;
+  }
+  .event-company-image {
+    display: none;
+  }
+  /* new meida */
+  .new-media-text {
+    color: #343434;
+    font-size: 16px;
+    font-weight: 700;
+    font-family: Roboto, sans-serif;
+    white-space: pre-line;
+    display: block;
+    overflow: hidden;
+    display: -webkit-box;
+    -webkit-box-orient: vertical;
+    /* For WebKit-based browsers (Chrome, Safari) */
+    -webkit-line-clamp: 2; /* Number of lines to show */
+    /* For Firefox */
+    -moz-line-clamp: 2; /* Number of lines to show */
+    /* For other browsers */
+  }
+}
+
+/* Cho màn hình từ 768px đến 991px */
+@media (min-width: 768px) and (max-width: 991px) {
+   /* footer */
+   .footer{
+    width: 100%;
+    padding-top: 60px;
+    padding-bottom: 60px;
+    padding-left: 30px;
+    padding-right: 30px;
+    background-color: #FAFAFA;
+    display: flex;
+    flex-direction: column;
+  }
+  /* banner home */
+  .banner-image-home {
+    position: absolute;
+    inset: 0;
+    display: flex;
+    align-items: center;
+    padding-left: 63px;
+  }
+  .banner-titles-home {
+    color: white;
+    font-size: 28px;
+    font-weight: 700;
+    white-space: pre-line;
+    font-style: italic;
+  }
+  .banner-button-home {
+    padding-top: 16px;
+    padding-bottom: 16px;
+    padding-left: 50px;
+    padding-right: 50px;
+    background-color: #cc5404;
+    border-radius: 31px;
+    width: fit-content;
+    display: flex;
+  }
+  /* our solution */
+  .our-solution-view {
+    width: 100%;
+    padding-top: 60px;
+    padding-bottom: 60px;
+    padding-left: 30px;
+    padding-right: 30px;
+  }
+  .our-solution-prod {
+    padding-top: 50px;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 30px;
+    justify-content: center;
+    align-items: center;
+  }
+  /* event company */
+  .event-company-prod {
+    padding-top: 50px;
+    display: grid;
+    grid-template-columns: repeat(1, 1fr);
+    gap: 13px;
+    padding: 12px;
+    justify-content: center;
+    align-items: center;
+  }
+  .event-company-image {
+    display: none;
+  }
+  /* new meida */
+  .new-media-text {
+    color: #343434;
+    font-size: 16px;
+    font-weight: 700;
+    font-family: Roboto, sans-serif;
+    white-space: pre-line;
+    display: block;
+    overflow: hidden;
+    display: -webkit-box;
+    -webkit-box-orient: vertical;
+    /* For WebKit-based browsers (Chrome, Safari) */
+    -webkit-line-clamp: 2; /* Number of lines to show */
+    /* For Firefox */
+    -moz-line-clamp: 2; /* Number of lines to show */
+    /* For other browsers */
+  }
+}
+
+/* Cho màn hình nhỏ hơn 768px */
+@media (max-width: 767px) {
+    /* footer */
+    .footer{
+      width: 100%;
+      padding-top: 60px;
+      padding-bottom: 60px;
+      padding-left: 30px;
+      padding-right: 30px;
+      background-color: #FAFAFA;
+      display: flex;
+      flex-direction: column;
+    }
+  /* banner home */
+  .banner-image-home {
+    position: absolute;
+    inset: 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding-left: 0px;
+  }
+  .banner-titles-home {
+    color: white;
+    font-size: 24px;
+    font-weight: 700;
+    white-space: pre-line;
+    font-style: italic;
+    text-align: center;
+  }
+  .banner-button-home {
+    padding-top: 12px;
+    padding-bottom: 12px;
+    padding-left: 30px;
+    padding-right: 30px;
+    background-color: #cc5404;
+    border-radius: 31px;
+    width: fit-content;
+    display: flex;
+  }
+  /* our solution */
+  .our-solution-view {
+    width: 100%;
+    padding-top: 50px;
+    padding-bottom: 50px;
+    padding-left: 20px;
+    padding-right: 20px;
+  }
+  .our-solution-prod {
+    padding-top: 50px;
+    display: grid;
+    grid-template-columns: repeat(1, 1fr);
+    gap: 20px;
+    justify-content: center;
+    align-items: center;
+  }
+  /* event company */
+  .event-company-prod {
+    display: none;
+  }
+  .event-company-image {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 50px;
+  }
+  /* new meida */
+  .new-media-text {
+    color: #343434;
+    font-size: 16px;
+    font-weight: 700;
+    font-family: Roboto, sans-serif;
+    white-space: pre-line;
+    display: block;
+    overflow: hidden;
+    display: -webkit-box;
+    -webkit-box-orient: vertical;
+    /* For WebKit-based browsers (Chrome, Safari) */
+    -webkit-line-clamp: 2; /* Number of lines to show */
+    /* For Firefox */
+    -moz-line-clamp: 2; /* Number of lines to show */
+    /* For other browsers */
+  }
+}
